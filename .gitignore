@@ -1,5 +1,8 @@
 # Node.js
 node_modules/
+echo ".env
+client/.env
+server/.env" >> .gitignore
 
 # Environment variables
 .env
