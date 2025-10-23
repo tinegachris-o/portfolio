@@ -7,6 +7,10 @@ export default ({ env }) => ({
   admin: {
     auth: {
       secret: env("ADMIN_JWT_SECRET"),
+      sessions: {
+        maxSessionLifespan: 1000 * 24 * 60 * 60 * 1000, // 1000 days (in milliseconds)
+        maxRefreshTokenLifespan: 1000 * 24 * 60 * 60 * 1000, // 1000 days
+      },
     },
     cookies: {
       secure: true, // ✅ we want secure cookies in production
