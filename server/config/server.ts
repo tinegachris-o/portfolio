@@ -9,7 +9,10 @@ export default ({ env }) => ({
       secret: env("ADMIN_JWT_SECRET"),
     },
     cookies: {
-      secure: true, // 🩵 Fixes "Cannot send secure cookie over unencrypted connection"
+      secure: true, // ✅ we want secure cookies in production
     },
+  },
+  settings: {
+    proxy: true, // 🧩 tells Strapi to trust Render's HTTPS proxy
   },
 });
