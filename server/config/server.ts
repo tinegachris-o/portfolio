@@ -9,7 +9,7 @@ export default ({ env }) => ({
       secret: env("ADMIN_JWT_SECRET"),
     },
     cookies: {
-      secure: false, // 🩵 Fixes "Cannot send secure cookie over unencrypted connection"
+      secure: true, // 🩵 Fixes "Cannot send secure cookie over unencrypted connection"
     },
   },
 });
