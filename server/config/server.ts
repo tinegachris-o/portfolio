@@ -3,7 +3,7 @@ export default ({ env }) => ({
   port: env.int("PORT", 1337),
 
   url: env("PUBLIC_URL", "https://portfolio-f9nx.onrender.com"), // important for admin assets
- // proxy: true, // trust Render's HTTPS proxy
+  proxy: true, // trust Render's HTTPS proxy
 
   app: {
     keys: env.array("APP_KEYS"),
