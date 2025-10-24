@@ -8,8 +8,8 @@ The app is designed to showcase personal projects, skills, and experiences — w
 
 ## 🌐 Live Demo
 
-- **Frontend (Client)** → [https://resume-client.vercel.app](https://resume-client.vercel.app)
-- **Backend (Server API)** → [https://resume-server.onrender.com](https://resume-server.onrender.com)
+- **Frontend (Client)** → https://portfolio-pi-pink-8zvm423hp8.vercel.app/
+- **Backend (Server API)** → Backend (Server API) → https://portfolio-f9nx.onrender.com
 
 ---
 
